@@ -1,0 +1,35 @@
+/* your theme's styles */
+body {
+	padding:0;
+	margin:0;
+}
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  width:100%;
+}
+.video video {
+  position: absolute;
+  width:100%;
+  height:100%;
+}
+.video .cover {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.6);
+	text-align:center;
+	-moz-box-shadow:    inset 0 0 400px #333;
+ 	-webkit-box-shadow: inset 0 0 400px #333;
+ 	box-shadow:         inset 0 0 400px #333;
+}
+.cover h1 {
+	display:block;
+	margin:300px auto;
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	opacity:.5;
+	font-size:6em;
+}
